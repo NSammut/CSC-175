@@ -1,0 +1,17 @@
+4. What is the two's complement representation for
+int neg num = -119;
+if the computer is representing integers with 4 bytes.
+(No programming for this question).
+
+The two's complement would be:
+
+int neg num = -119
+two's complement = 
+
+01110111 - 119
+10001000 - Flip All 1's and 0's
+10001001 - Add One
+10001001 - Two's Complement -119
+
+
+10001001

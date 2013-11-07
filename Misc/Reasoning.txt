@@ -1,0 +1,3 @@
+The program has the same results because rand() is always the same on a computer. 
+I will instead be using the srand(time()) function to generate a random number based on 
+the time in seconds.

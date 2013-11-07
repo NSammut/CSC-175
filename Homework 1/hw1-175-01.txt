@@ -1,0 +1,191 @@
+CSC 175-02 Homework Assignment 1
+Due by 9/18/2013, Wednesday 8:00am
+
+- No emailed homeworks. 
+- Only submission is via BB system. 
+- No late submissions.
+- Each question below is equally weighted (20% each)
+- See the end of this document for the deliverables. You will lose points if 
+you don't follow the instructions as stated.
+
+
+
+
+1) Accept the following information from the user (keyboard):
+- Hw1, hw2 and hw3 (out of 100)
+- Midterm (out of 100)
+- Final exam (out of 100)
+
+Calculate the total grade out of 100 based on the following grading scale: 
+Hws          -->    30% (10% each)
+Midterm      -->    30%
+Final Exam   -->    40%
+
+Test Data: 
+ (a) 
+Hw1: 0
+Hw2: 0
+Hw3: 0
+MT: 0
+Final : 0
+
+Overall Grade: 0 out of 100
+
+  (b) 
+
+Hw1: 100
+Hw2: 100
+Hw3: 100
+MT: 100
+Final : 100
+
+Overall Grade: 100 out of 100
+
+  (c) 
+Hw1: 80
+Hw2: 90
+Hw3: 70
+MT: 50
+Final : 80
+
+Overall Grade: 71 out of 100
+
+
+
+
+2) Write a complete program that calculates and displays the product of three integers
+read from keyboard. Add comments to the code where appropriate. 
+
+Test Data:
+  (a) 
+Integer 1: 1
+Integer 2: 2
+Integer 3: 3
+
+Product of 1, 2 and 3 is 6
+
+  (b) 
+Integer 1: 10
+Integer 2: 20
+Integer 3: 30
+
+Product of 10, 20 and 30 is 6000
+  
+
+
+3) Write a program that reads the value (x) from keyboard and calculates y based on the following
+formula: 
+
+   y = 6x^2 + 12x - 27
+
+Test Data:
+
+  (a) 
+Enter x = 2
+
+y = 21
+
+    (b) 
+Enter x = -3
+
+y = -9
+
+
+4) Write a program that inputs an integer that represents a length of time 
+in seconds.  The program should then output the number of hours, minutes, 
+and seconds that corresponds to that number of seconds.  For example, if 
+the user inputs 50391 total seconds then the program should output 13 
+hours, 59 minutes, and 51 seconds.  
+
+
+Output: 
+Enter a time in seconds.
+34567
+34567 total seconds is equivalent to 9 hours, 36 minutes, and 7 seconds.
+
+
+5) The workers have won a 7.6% pay increase, effective 6 months
+ retroactively. This program is to accept the previous salary,
+  then outputs the retroactive 
+pay due the employee, the new annual salary, and the new
+ monthly salary. 
+
+Output:
+
+Enter current annual salary.
+I'll return new annual salary, monthly salary, and retroactive pay.
+1000
+new annual salary 1076
+new monthly salary 89.6667
+retroactive salary due: 38
+
+
+
+Delivarables: 
+
+1) Source Code: (.cpp file) that must start with a comment block similar to the 
+following example:
+
+/*************************************************************************
+**	Author			:	Suleyman Uludag 		
+**	Program			:	hw1, q1 			
+**	Date Created		:	September 11, 2013
+**	Date Last Modified	:	September 18, 2013		
+**	Usage			:	No command line arguments	
+**									
+**	Problem:							
+
+Accept the following information from the user (keyboard):
+- Hw1, hw2 and hw3 (out of 100)
+- Midterm (out of 100)
+- Final exam (out of 100)
+
+Calculate the total grade out of 100 based on the following grading scale: 
+Hws          -->    30% (10% each)
+Midterm      -->    30%
+Final Exam   -->    40%
+
+**	Pseudocode:							
+**	1) 								
+**	2) 								
+**	3) 								
+**      4) 								
+*************************************************************************/
+
+File naming convention example: 
+
+		hw1-q1.cpp
+
+
+2) Executable (.exe file under windows). You must explicitly state the platform of your
+executable (such as Linux, etc.) if it is not Windows. Please name your file by using the 
+question number: 
+
+		hw1-q1.exe
+  
+
+
+3) Screenshot of your output for the test data.
+   For screenshot, you can use the following free program on windows: 
+
+     http://www.wisdom-soft.com/downloads/setupscreenhunterfree.exe
+
+File naming convention example:
+
+
+	  hw1-q1.gif (or .jpg or another graphics format)
+
+
+4) You must zip all the above three files into ONE .zip file and submit your assignment by 
+the deadline on BlackBoard system. Name your file as Lastname-Firstname-hw#.zip. For example, 
+
+		Uludag-Suleyman-hw1.zip
+
+
+For generating .zip file, you may use the following free software under MS Windows: 
+
+	http://downloads.sourceforge.net/sevenzip/7z920.exe
+
+
+
+ 
