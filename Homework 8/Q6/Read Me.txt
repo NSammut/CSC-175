@@ -1,0 +1,1 @@
+This program takes a few seconds to complete.
