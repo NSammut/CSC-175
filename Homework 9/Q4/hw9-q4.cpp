@@ -1,8 +1,8 @@
 /*************************************************************************
-**	Author			    :	Nicholas Sammut
+**	Author			    :	Divyanshu Bisht
 **	Program			    :	hw9, q4
-**	Date Created		:	November 14, 2013
-**	Date Last Modified	:	November 14, 2013
+**	Date Created		:	February 11,2020
+**	Date Last Modified	:	February 11,2020
 **	Usage			    :	No command line arguments
 **  Operating System/IDE:   Windows 8.1/Code::Blocks 12.11
 **	Problem:
@@ -29,54 +29,52 @@ sponse to each answer. Use switch statement to issue the responses.
 **************************************************************************/
 #include <cstdlib>
 #include <iostream>
-
 using namespace std;
 
 int guess = 0, answer = 0, first = 0, second = 0, endProgram = 0, response = 0;
 
 int main()
 {
-    cout << "Enter -1 to End.\n";
-    start:
+    while(1)
+    {
     first = 1 + rand() % 9;
     second = 1 + rand() % 9;
     answer = first * second;
-    while(true){
-    retry:
     response = 1 + rand() % 4;
     cout << "How much is " << first << " times " << second << " (-1 to End)? : ";
     cin >> guess;
-    if(guess == answer){
+     if(guess == answer){
         switch(response){
             case 1: cout << "Very good!\n";
-                    goto start;
+                    continue;
             case 2: cout << "Excellent!\n";
-                    goto start;
+                    continue;
             case 3: cout << "Nice work!\n";
-                    goto start;
+                    continue;
             case 4: cout << "Keep up the good work!\n";
-                    goto start;
+                    continue;
         }
     }
     else if(guess == -1){
         cout << "That's all for now. Bye.\n";
-        system("pause");
-        return 0;
+        break;
     }
     else{
-        switch(response){
-            case 1: cout << "No. Please try again.\n";
-                    goto retry;
-            case 2: cout << "Wrong. Try once more.\n";
-                    goto retry;
-            case 3: cout << "Don't give up.\n";
-                    goto retry;
-            case 4: cout << "Not really, keep trying.\n";
-                    goto retry;
-        }
+         while(guess!=true)
+         {
+           response = 1 + rand() % 4;
+           switch(response){
+              case 1: cout << "No. Please try again.\n";
+              case 2: cout << "Wrong. Try once more.\n";
+              case 3: cout << "Don't give up.\n";
+              case 4: cout << "Not really, keep trying.\n";
+                  }
+             cout<<"\n TRY GUESSING ANSWER ONCE AGAIN";
+             cin>>guess;
+         }
     }
 }
-   system("pause");
    return 0;
 }
+
 
